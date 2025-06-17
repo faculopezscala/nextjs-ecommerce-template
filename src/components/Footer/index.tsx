@@ -32,7 +32,7 @@ const Footer = () => {
                     />
                   </svg>
                 </span>
-                with love by bugster
+                with love by bugster & {year}
               </li>
 
               <li>
