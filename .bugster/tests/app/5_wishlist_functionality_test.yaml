@@ -1,0 +1,13 @@
+name: Wishlist Functionality Test
+page: wishlist
+page_path: src/app/(site)/(pages)/wishlist/page.tsx
+task: Verify users can add products to wishlist and manage their wishlist
+steps:
+- Navigate to a product page
+- Click on 'Add to Wishlist' button
+- Navigate to the wishlist page
+- Verify the product appears in the wishlist
+- Test removing an item from wishlist
+- Verify item is removed successfully
+expected_result: Products should be added to wishlist and displayed correctly on the
+  wishlist page

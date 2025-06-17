@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "timestamp": 1750173448379,
+    "version": 2,
+    "git": {
+      "branch": "main",
+      "commit": "cb8f015b7342813b7e30def9ab2d27765d924bb2"
+    }
+  },
+  "data": {
+    "frameworks": [
+      {
+        "id": "next",
+        "name": "Next.js",
+        "dir_path": "/Users/facundolopezscala/coding-repos/demo-ecommerce/nextjs-ecommerce-template/"
+      }
+    ]
+  }
+}

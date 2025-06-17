@@ -1,0 +1,7 @@
+base_url: http://localhost:3000
+credentials:
+- id: admin
+  password: admin
+  username: admin
+project_id: jPukD0Ub4TuyhyFKPVPz
+project_name: Testing Demo

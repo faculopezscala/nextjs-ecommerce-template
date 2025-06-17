@@ -1,0 +1,1151 @@
+{
+  "metadata": {
+    "timestamp": 1750173454.945639,
+    "version": 2,
+    "git": {
+      "branch": "main",
+      "commit": "cb8f015b7342813b7e30def9ab2d27765d924bb2"
+    }
+  },
+  "data": {
+    "framework": {
+      "id": "next",
+      "name": "Next.js",
+      "dir_path": "/Users/facundolopezscala/coding-repos/demo-ecommerce/nextjs-ecommerce-template/"
+    },
+    "node": {
+      "name": "",
+      "path": "",
+      "type": "directory",
+      "children": [
+        {
+          "name": "next.config.js",
+          "path": "next.config.js",
+          "type": "file",
+          "extension": ".js"
+        },
+        {
+          "name": "postcss.config.js",
+          "path": "postcss.config.js",
+          "type": "file",
+          "extension": ".js"
+        },
+        {
+          "name": "src",
+          "path": "src",
+          "type": "directory",
+          "children": [
+            {
+              "name": "app",
+              "path": "src/app",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "(site)",
+                  "path": "src/app/(site)",
+                  "type": "directory",
+                  "children": [
+                    {
+                      "name": "(pages)",
+                      "path": "src/app/(site)/(pages)",
+                      "type": "directory",
+                      "children": [
+                        {
+                          "name": "cart",
+                          "path": "src/app/(site)/(pages)/cart",
+                          "type": "directory",
+                          "children": [
+                            {
+                              "name": "page.tsx",
+                              "path": "src/app/(site)/(pages)/cart/page.tsx",
+                              "type": "file",
+                              "extension": ".tsx"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "checkout",
+                          "path": "src/app/(site)/(pages)/checkout",
+                          "type": "directory",
+                          "children": [
+                            {
+                              "name": "page.tsx",
+                              "path": "src/app/(site)/(pages)/checkout/page.tsx",
+                              "type": "file",
+                              "extension": ".tsx"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "contact",
+                          "path": "src/app/(site)/(pages)/contact",
+                          "type": "directory",
+                          "children": [
+                            {
+                              "name": "page.tsx",
+                              "path": "src/app/(site)/(pages)/contact/page.tsx",
+                              "type": "file",
+                              "extension": ".tsx"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "error",
+                          "path": "src/app/(site)/(pages)/error",
+                          "type": "directory",
+                          "children": [
+                            {
+                              "name": "page.tsx",
+                              "path": "src/app/(site)/(pages)/error/page.tsx",
+                              "type": "file",
+                              "extension": ".tsx"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "mail-success",
+                          "path": "src/app/(site)/(pages)/mail-success",
+                          "type": "directory",
+                          "children": [
+                            {
+                              "name": "page.tsx",
+                              "path": "src/app/(site)/(pages)/mail-success/page.tsx",
+                              "type": "file",
+                              "extension": ".tsx"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "my-account",
+                          "path": "src/app/(site)/(pages)/my-account",
+                          "type": "directory",
+                          "children": [
+                            {
+                              "name": "page.tsx",
+                              "path": "src/app/(site)/(pages)/my-account/page.tsx",
+                              "type": "file",
+                              "extension": ".tsx"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "shop-details",
+                          "path": "src/app/(site)/(pages)/shop-details",
+                          "type": "directory",
+                          "children": [
+                            {
+                              "name": "page.tsx",
+                              "path": "src/app/(site)/(pages)/shop-details/page.tsx",
+                              "type": "file",
+                              "extension": ".tsx"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "shop-with-sidebar",
+                          "path": "src/app/(site)/(pages)/shop-with-sidebar",
+                          "type": "directory",
+                          "children": [
+                            {
+                              "name": "page.tsx",
+                              "path": "src/app/(site)/(pages)/shop-with-sidebar/page.tsx",
+                              "type": "file",
+                              "extension": ".tsx"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "shop-without-sidebar",
+                          "path": "src/app/(site)/(pages)/shop-without-sidebar",
+                          "type": "directory",
+                          "children": [
+                            {
+                              "name": "page.tsx",
+                              "path": "src/app/(site)/(pages)/shop-without-sidebar/page.tsx",
+                              "type": "file",
+                              "extension": ".tsx"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "signin",
+                          "path": "src/app/(site)/(pages)/signin",
+                          "type": "directory",
+                          "children": [
+                            {
+                              "name": "page.tsx",
+                              "path": "src/app/(site)/(pages)/signin/page.tsx",
+                              "type": "file",
+                              "extension": ".tsx"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "signup",
+                          "path": "src/app/(site)/(pages)/signup",
+                          "type": "directory",
+                          "children": [
+                            {
+                              "name": "page.tsx",
+                              "path": "src/app/(site)/(pages)/signup/page.tsx",
+                              "type": "file",
+                              "extension": ".tsx"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "wishlist",
+                          "path": "src/app/(site)/(pages)/wishlist",
+                          "type": "directory",
+                          "children": [
+                            {
+                              "name": "page.tsx",
+                              "path": "src/app/(site)/(pages)/wishlist/page.tsx",
+                              "type": "file",
+                              "extension": ".tsx"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "blogs",
+                      "path": "src/app/(site)/blogs",
+                      "type": "directory",
+                      "children": [
+                        {
+                          "name": "blog-details-with-sidebar",
+                          "path": "src/app/(site)/blogs/blog-details-with-sidebar",
+                          "type": "directory",
+                          "children": [
+                            {
+                              "name": "page.tsx",
+                              "path": "src/app/(site)/blogs/blog-details-with-sidebar/page.tsx",
+                              "type": "file",
+                              "extension": ".tsx"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "blog-details",
+                          "path": "src/app/(site)/blogs/blog-details",
+                          "type": "directory",
+                          "children": [
+                            {
+                              "name": "page.tsx",
+                              "path": "src/app/(site)/blogs/blog-details/page.tsx",
+                              "type": "file",
+                              "extension": ".tsx"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "blog-grid-with-sidebar",
+                          "path": "src/app/(site)/blogs/blog-grid-with-sidebar",
+                          "type": "directory",
+                          "children": [
+                            {
+                              "name": "page.tsx",
+                              "path": "src/app/(site)/blogs/blog-grid-with-sidebar/page.tsx",
+                              "type": "file",
+                              "extension": ".tsx"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "blog-grid",
+                          "path": "src/app/(site)/blogs/blog-grid",
+                          "type": "directory",
+                          "children": [
+                            {
+                              "name": "page.tsx",
+                              "path": "src/app/(site)/blogs/blog-grid/page.tsx",
+                              "type": "file",
+                              "extension": ".tsx"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "layout.tsx",
+                      "path": "src/app/(site)/layout.tsx",
+                      "type": "file",
+                      "extension": ".tsx"
+                    },
+                    {
+                      "name": "page.tsx",
+                      "path": "src/app/(site)/page.tsx",
+                      "type": "file",
+                      "extension": ".tsx"
+                    }
+                  ]
+                },
+                {
+                  "name": "context",
+                  "path": "src/app/context",
+                  "type": "directory",
+                  "children": [
+                    {
+                      "name": "CartSidebarModalContext.tsx",
+                      "path": "src/app/context/CartSidebarModalContext.tsx",
+                      "type": "file",
+                      "extension": ".tsx"
+                    },
+                    {
+                      "name": "PreviewSliderContext.tsx",
+                      "path": "src/app/context/PreviewSliderContext.tsx",
+                      "type": "file",
+                      "extension": ".tsx"
+                    },
+                    {
+                      "name": "QuickViewModalContext.tsx",
+                      "path": "src/app/context/QuickViewModalContext.tsx",
+                      "type": "file",
+                      "extension": ".tsx"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "components",
+              "path": "src/components",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "Auth",
+                  "path": "src/components/Auth",
+                  "type": "directory",
+                  "children": [
+                    {
+                      "name": "Signin",
+                      "path": "src/components/Auth/Signin",
+                      "type": "directory",
+                      "children": [
+                        {
+                          "name": "index.tsx",
+                          "path": "src/components/Auth/Signin/index.tsx",
+                          "type": "file",
+                          "extension": ".tsx"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Signup",
+                      "path": "src/components/Auth/Signup",
+                      "type": "directory",
+                      "children": [
+                        {
+                          "name": "index.tsx",
+                          "path": "src/components/Auth/Signup/index.tsx",
+                          "type": "file",
+                          "extension": ".tsx"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Blog",
+                  "path": "src/components/Blog",
+                  "type": "directory",
+                  "children": [
+                    {
+                      "name": "BlogItem.tsx",
+                      "path": "src/components/Blog/BlogItem.tsx",
+                      "type": "file",
+                      "extension": ".tsx"
+                    },
+                    {
+                      "name": "Categories.tsx",
+                      "path": "src/components/Blog/Categories.tsx",
+                      "type": "file",
+                      "extension": ".tsx"
+                    },
+                    {
+                      "name": "LatestPosts.tsx",
+                      "path": "src/components/Blog/LatestPosts.tsx",
+                      "type": "file",
+                      "extension": ".tsx"
+                    },
+                    {
+                      "name": "LatestProducts.tsx",
+                      "path": "src/components/Blog/LatestProducts.tsx",
+                      "type": "file",
+                      "extension": ".tsx"
+                    },
+                    {
+                      "name": "SearchForm.tsx",
+                      "path": "src/components/Blog/SearchForm.tsx",
+                      "type": "file",
+                      "extension": ".tsx"
+                    }
+                  ]
+                },
+                {
+                  "name": "BlogDetails",
+                  "path": "src/components/BlogDetails",
+                  "type": "directory",
+                  "children": [
+                    {
+                      "name": "index.tsx",
+                      "path": "src/components/BlogDetails/index.tsx",
+                      "type": "file",
+                      "extension": ".tsx"
+                    }
+                  ]
+                },
+                {
+                  "name": "BlogDetailsWithSidebar",
+                  "path": "src/components/BlogDetailsWithSidebar",
+                  "type": "directory",
+                  "children": [
+                    {
+                      "name": "index.tsx",
+                      "path": "src/components/BlogDetailsWithSidebar/index.tsx",
+                      "type": "file",
+                      "extension": ".tsx"
+                    }
+                  ]
+                },
+                {
+                  "name": "BlogGrid",
+                  "path": "src/components/BlogGrid",
+                  "type": "directory",
+                  "children": [
+                    {
+                      "name": "blogData.ts",
+                      "path": "src/components/BlogGrid/blogData.ts",
+                      "type": "file",
+                      "extension": ".ts"
+                    },
+                    {
+                      "name": "index.tsx",
+                      "path": "src/components/BlogGrid/index.tsx",
+                      "type": "file",
+                      "extension": ".tsx"
+                    }
+                  ]
+                },
+                {
+                  "name": "BlogGridWithSidebar",
+                  "path": "src/components/BlogGridWithSidebar",
+                  "type": "directory",
+                  "children": [
+                    {
+                      "name": "index.tsx",
+                      "path": "src/components/BlogGridWithSidebar/index.tsx",
+                      "type": "file",
+                      "extension": ".tsx"
+                    }
+                  ]
+                },
+                {
+                  "name": "Cart",
+                  "path": "src/components/Cart",
+                  "type": "directory",
+                  "children": [
+                    {
+                      "name": "Discount.tsx",
+                      "path": "src/components/Cart/Discount.tsx",
+                      "type": "file",
+                      "extension": ".tsx"
+                    },
+                    {
+                      "name": "OrderSummary.tsx",
+                      "path": "src/components/Cart/OrderSummary.tsx",
+                      "type": "file",
+                      "extension": ".tsx"
+                    },
+                    {
+                      "name": "SingleItem.tsx",
+                      "path": "src/components/Cart/SingleItem.tsx",
+                      "type": "file",
+                      "extension": ".tsx"
+                    },
+                    {
+                      "name": "index.tsx",
+                      "path": "src/components/Cart/index.tsx",
+                      "type": "file",
+                      "extension": ".tsx"
+                    }
+                  ]
+                },
+                {
+                  "name": "Checkout",
+                  "path": "src/components/Checkout",
+                  "type": "directory",
+                  "children": [
+                    {
+                      "name": "Billing.tsx",
+                      "path": "src/components/Checkout/Billing.tsx",
+                      "type": "file",
+                      "extension": ".tsx"
+                    },
+                    {
+                      "name": "Coupon.tsx",
+                      "path": "src/components/Checkout/Coupon.tsx",
+                      "type": "file",
+                      "extension": ".tsx"
+                    },
+                    {
+                      "name": "Login.tsx",
+                      "path": "src/components/Checkout/Login.tsx",
+                      "type": "file",
+                      "extension": ".tsx"
+                    },
+                    {
+                      "name": "Notes.tsx",
+                      "path": "src/components/Checkout/Notes.tsx",
+                      "type": "file",
+                      "extension": ".tsx"
+                    },
+                    {
+                      "name": "OrderList.tsx",
+                      "path": "src/components/Checkout/OrderList.tsx",
+                      "type": "file",
+                      "extension": ".tsx"
+                    },
+                    {
+                      "name": "PaymentMethod.tsx",
+                      "path": "src/components/Checkout/PaymentMethod.tsx",
+                      "type": "file",
+                      "extension": ".tsx"
+                    },
+                    {
+                      "name": "Shipping.tsx",
+                      "path": "src/components/Checkout/Shipping.tsx",
+                      "type": "file",
+                      "extension": ".tsx"
+                    },
+                    {
+                      "name": "ShippingMethod.tsx",
+                      "path": "src/components/Checkout/ShippingMethod.tsx",
+                      "type": "file",
+                      "extension": ".tsx"
+                    },
+                    {
+                      "name": "index.tsx",
+                      "path": "src/components/Checkout/index.tsx",
+                      "type": "file",
+                      "extension": ".tsx"
+                    }
+                  ]
+                },
+                {
+                  "name": "Common",
+                  "path": "src/components/Common",
+                  "type": "directory",
+                  "children": [
+                    {
+                      "name": "Breadcrumb.tsx",
+                      "path": "src/components/Common/Breadcrumb.tsx",
+                      "type": "file",
+                      "extension": ".tsx"
+                    },
+                    {
+                      "name": "CartSidebarModal",
+                      "path": "src/components/Common/CartSidebarModal",
+                      "type": "directory",
+                      "children": [
+                        {
+                          "name": "EmptyCart.tsx",
+                          "path": "src/components/Common/CartSidebarModal/EmptyCart.tsx",
+                          "type": "file",
+                          "extension": ".tsx"
+                        },
+                        {
+                          "name": "SingleItem.tsx",
+                          "path": "src/components/Common/CartSidebarModal/SingleItem.tsx",
+                          "type": "file",
+                          "extension": ".tsx"
+                        },
+                        {
+                          "name": "index.tsx",
+                          "path": "src/components/Common/CartSidebarModal/index.tsx",
+                          "type": "file",
+                          "extension": ".tsx"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Newsletter.tsx",
+                      "path": "src/components/Common/Newsletter.tsx",
+                      "type": "file",
+                      "extension": ".tsx"
+                    },
+                    {
+                      "name": "PreLoader.tsx",
+                      "path": "src/components/Common/PreLoader.tsx",
+                      "type": "file",
+                      "extension": ".tsx"
+                    },
+                    {
+                      "name": "PreviewSlider.tsx",
+                      "path": "src/components/Common/PreviewSlider.tsx",
+                      "type": "file",
+                      "extension": ".tsx"
+                    },
+                    {
+                      "name": "ProductItem.tsx",
+                      "path": "src/components/Common/ProductItem.tsx",
+                      "type": "file",
+                      "extension": ".tsx"
+                    },
+                    {
+                      "name": "QuickViewModal.tsx",
+                      "path": "src/components/Common/QuickViewModal.tsx",
+                      "type": "file",
+                      "extension": ".tsx"
+                    },
+                    {
+                      "name": "ScrollToTop.tsx",
+                      "path": "src/components/Common/ScrollToTop.tsx",
+                      "type": "file",
+                      "extension": ".tsx"
+                    }
+                  ]
+                },
+                {
+                  "name": "Contact",
+                  "path": "src/components/Contact",
+                  "type": "directory",
+                  "children": [
+                    {
+                      "name": "index.tsx",
+                      "path": "src/components/Contact/index.tsx",
+                      "type": "file",
+                      "extension": ".tsx"
+                    }
+                  ]
+                },
+                {
+                  "name": "Error",
+                  "path": "src/components/Error",
+                  "type": "directory",
+                  "children": [
+                    {
+                      "name": "index.tsx",
+                      "path": "src/components/Error/index.tsx",
+                      "type": "file",
+                      "extension": ".tsx"
+                    }
+                  ]
+                },
+                {
+                  "name": "Footer",
+                  "path": "src/components/Footer",
+                  "type": "directory",
+                  "children": [
+                    {
+                      "name": "index.tsx",
+                      "path": "src/components/Footer/index.tsx",
+                      "type": "file",
+                      "extension": ".tsx"
+                    }
+                  ]
+                },
+                {
+                  "name": "Header",
+                  "path": "src/components/Header",
+                  "type": "directory",
+                  "children": [
+                    {
+                      "name": "CustomSelect.tsx",
+                      "path": "src/components/Header/CustomSelect.tsx",
+                      "type": "file",
+                      "extension": ".tsx"
+                    },
+                    {
+                      "name": "Dropdown.tsx",
+                      "path": "src/components/Header/Dropdown.tsx",
+                      "type": "file",
+                      "extension": ".tsx"
+                    },
+                    {
+                      "name": "index.tsx",
+                      "path": "src/components/Header/index.tsx",
+                      "type": "file",
+                      "extension": ".tsx"
+                    },
+                    {
+                      "name": "menuData.ts",
+                      "path": "src/components/Header/menuData.ts",
+                      "type": "file",
+                      "extension": ".ts"
+                    }
+                  ]
+                },
+                {
+                  "name": "Home",
+                  "path": "src/components/Home",
+                  "type": "directory",
+                  "children": [
+                    {
+                      "name": "BestSeller",
+                      "path": "src/components/Home/BestSeller",
+                      "type": "directory",
+                      "children": [
+                        {
+                          "name": "SingleItem.tsx",
+                          "path": "src/components/Home/BestSeller/SingleItem.tsx",
+                          "type": "file",
+                          "extension": ".tsx"
+                        },
+                        {
+                          "name": "index.tsx",
+                          "path": "src/components/Home/BestSeller/index.tsx",
+                          "type": "file",
+                          "extension": ".tsx"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Categories",
+                      "path": "src/components/Home/Categories",
+                      "type": "directory",
+                      "children": [
+                        {
+                          "name": "SingleItem.tsx",
+                          "path": "src/components/Home/Categories/SingleItem.tsx",
+                          "type": "file",
+                          "extension": ".tsx"
+                        },
+                        {
+                          "name": "categoryData.ts",
+                          "path": "src/components/Home/Categories/categoryData.ts",
+                          "type": "file",
+                          "extension": ".ts"
+                        },
+                        {
+                          "name": "index.tsx",
+                          "path": "src/components/Home/Categories/index.tsx",
+                          "type": "file",
+                          "extension": ".tsx"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Countdown",
+                      "path": "src/components/Home/Countdown",
+                      "type": "directory",
+                      "children": [
+                        {
+                          "name": "index.tsx",
+                          "path": "src/components/Home/Countdown/index.tsx",
+                          "type": "file",
+                          "extension": ".tsx"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Hero",
+                      "path": "src/components/Home/Hero",
+                      "type": "directory",
+                      "children": [
+                        {
+                          "name": "HeroCarousel.tsx",
+                          "path": "src/components/Home/Hero/HeroCarousel.tsx",
+                          "type": "file",
+                          "extension": ".tsx"
+                        },
+                        {
+                          "name": "HeroFeature.tsx",
+                          "path": "src/components/Home/Hero/HeroFeature.tsx",
+                          "type": "file",
+                          "extension": ".tsx"
+                        },
+                        {
+                          "name": "index.tsx",
+                          "path": "src/components/Home/Hero/index.tsx",
+                          "type": "file",
+                          "extension": ".tsx"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "NewArrivals",
+                      "path": "src/components/Home/NewArrivals",
+                      "type": "directory",
+                      "children": [
+                        {
+                          "name": "index.tsx",
+                          "path": "src/components/Home/NewArrivals/index.tsx",
+                          "type": "file",
+                          "extension": ".tsx"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "PromoBanner",
+                      "path": "src/components/Home/PromoBanner",
+                      "type": "directory",
+                      "children": [
+                        {
+                          "name": "index.tsx",
+                          "path": "src/components/Home/PromoBanner/index.tsx",
+                          "type": "file",
+                          "extension": ".tsx"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Testimonials",
+                      "path": "src/components/Home/Testimonials",
+                      "type": "directory",
+                      "children": [
+                        {
+                          "name": "SingleItem.tsx",
+                          "path": "src/components/Home/Testimonials/SingleItem.tsx",
+                          "type": "file",
+                          "extension": ".tsx"
+                        },
+                        {
+                          "name": "index.tsx",
+                          "path": "src/components/Home/Testimonials/index.tsx",
+                          "type": "file",
+                          "extension": ".tsx"
+                        },
+                        {
+                          "name": "testimonialsData.ts",
+                          "path": "src/components/Home/Testimonials/testimonialsData.ts",
+                          "type": "file",
+                          "extension": ".ts"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "index.tsx",
+                      "path": "src/components/Home/index.tsx",
+                      "type": "file",
+                      "extension": ".tsx"
+                    }
+                  ]
+                },
+                {
+                  "name": "MailSuccess",
+                  "path": "src/components/MailSuccess",
+                  "type": "directory",
+                  "children": [
+                    {
+                      "name": "index.tsx",
+                      "path": "src/components/MailSuccess/index.tsx",
+                      "type": "file",
+                      "extension": ".tsx"
+                    }
+                  ]
+                },
+                {
+                  "name": "MyAccount",
+                  "path": "src/components/MyAccount",
+                  "type": "directory",
+                  "children": [
+                    {
+                      "name": "AddressModal.tsx",
+                      "path": "src/components/MyAccount/AddressModal.tsx",
+                      "type": "file",
+                      "extension": ".tsx"
+                    },
+                    {
+                      "name": "index.tsx",
+                      "path": "src/components/MyAccount/index.tsx",
+                      "type": "file",
+                      "extension": ".tsx"
+                    },
+                    {
+                      "name": "tabsData.tsx",
+                      "path": "src/components/MyAccount/tabsData.tsx",
+                      "type": "file",
+                      "extension": ".tsx"
+                    }
+                  ]
+                },
+                {
+                  "name": "Orders",
+                  "path": "src/components/Orders",
+                  "type": "directory",
+                  "children": [
+                    {
+                      "name": "EditOrder.tsx",
+                      "path": "src/components/Orders/EditOrder.tsx",
+                      "type": "file",
+                      "extension": ".tsx"
+                    },
+                    {
+                      "name": "OrderActions.tsx",
+                      "path": "src/components/Orders/OrderActions.tsx",
+                      "type": "file",
+                      "extension": ".tsx"
+                    },
+                    {
+                      "name": "OrderDetails.tsx",
+                      "path": "src/components/Orders/OrderDetails.tsx",
+                      "type": "file",
+                      "extension": ".tsx"
+                    },
+                    {
+                      "name": "OrderModal.tsx",
+                      "path": "src/components/Orders/OrderModal.tsx",
+                      "type": "file",
+                      "extension": ".tsx"
+                    },
+                    {
+                      "name": "SingleOrder.tsx",
+                      "path": "src/components/Orders/SingleOrder.tsx",
+                      "type": "file",
+                      "extension": ".tsx"
+                    },
+                    {
+                      "name": "index.tsx",
+                      "path": "src/components/Orders/index.tsx",
+                      "type": "file",
+                      "extension": ".tsx"
+                    },
+                    {
+                      "name": "ordersData.tsx",
+                      "path": "src/components/Orders/ordersData.tsx",
+                      "type": "file",
+                      "extension": ".tsx"
+                    }
+                  ]
+                },
+                {
+                  "name": "Shop",
+                  "path": "src/components/Shop",
+                  "type": "directory",
+                  "children": [
+                    {
+                      "name": "SingleGridItem.tsx",
+                      "path": "src/components/Shop/SingleGridItem.tsx",
+                      "type": "file",
+                      "extension": ".tsx"
+                    },
+                    {
+                      "name": "SingleListItem.tsx",
+                      "path": "src/components/Shop/SingleListItem.tsx",
+                      "type": "file",
+                      "extension": ".tsx"
+                    },
+                    {
+                      "name": "shopData.ts",
+                      "path": "src/components/Shop/shopData.ts",
+                      "type": "file",
+                      "extension": ".ts"
+                    }
+                  ]
+                },
+                {
+                  "name": "ShopDetails",
+                  "path": "src/components/ShopDetails",
+                  "type": "directory",
+                  "children": [
+                    {
+                      "name": "RecentlyViewd",
+                      "path": "src/components/ShopDetails/RecentlyViewd",
+                      "type": "directory",
+                      "children": [
+                        {
+                          "name": "index.tsx",
+                          "path": "src/components/ShopDetails/RecentlyViewd/index.tsx",
+                          "type": "file",
+                          "extension": ".tsx"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "index.tsx",
+                      "path": "src/components/ShopDetails/index.tsx",
+                      "type": "file",
+                      "extension": ".tsx"
+                    }
+                  ]
+                },
+                {
+                  "name": "ShopWithSidebar",
+                  "path": "src/components/ShopWithSidebar",
+                  "type": "directory",
+                  "children": [
+                    {
+                      "name": "CategoryDropdown.tsx",
+                      "path": "src/components/ShopWithSidebar/CategoryDropdown.tsx",
+                      "type": "file",
+                      "extension": ".tsx"
+                    },
+                    {
+                      "name": "ColorsDropdwon.tsx",
+                      "path": "src/components/ShopWithSidebar/ColorsDropdwon.tsx",
+                      "type": "file",
+                      "extension": ".tsx"
+                    },
+                    {
+                      "name": "CustomSelect.tsx",
+                      "path": "src/components/ShopWithSidebar/CustomSelect.tsx",
+                      "type": "file",
+                      "extension": ".tsx"
+                    },
+                    {
+                      "name": "GenderDropdown.tsx",
+                      "path": "src/components/ShopWithSidebar/GenderDropdown.tsx",
+                      "type": "file",
+                      "extension": ".tsx"
+                    },
+                    {
+                      "name": "PriceDropdown.tsx",
+                      "path": "src/components/ShopWithSidebar/PriceDropdown.tsx",
+                      "type": "file",
+                      "extension": ".tsx"
+                    },
+                    {
+                      "name": "Progress.tsx",
+                      "path": "src/components/ShopWithSidebar/Progress.tsx",
+                      "type": "file",
+                      "extension": ".tsx"
+                    },
+                    {
+                      "name": "SizeDropdown.tsx",
+                      "path": "src/components/ShopWithSidebar/SizeDropdown.tsx",
+                      "type": "file",
+                      "extension": ".tsx"
+                    },
+                    {
+                      "name": "index.tsx",
+                      "path": "src/components/ShopWithSidebar/index.tsx",
+                      "type": "file",
+                      "extension": ".tsx"
+                    }
+                  ]
+                },
+                {
+                  "name": "ShopWithoutSidebar",
+                  "path": "src/components/ShopWithoutSidebar",
+                  "type": "directory",
+                  "children": [
+                    {
+                      "name": "index.tsx",
+                      "path": "src/components/ShopWithoutSidebar/index.tsx",
+                      "type": "file",
+                      "extension": ".tsx"
+                    }
+                  ]
+                },
+                {
+                  "name": "Wishlist",
+                  "path": "src/components/Wishlist",
+                  "type": "directory",
+                  "children": [
+                    {
+                      "name": "SingleItem.tsx",
+                      "path": "src/components/Wishlist/SingleItem.tsx",
+                      "type": "file",
+                      "extension": ".tsx"
+                    },
+                    {
+                      "name": "index.tsx",
+                      "path": "src/components/Wishlist/index.tsx",
+                      "type": "file",
+                      "extension": ".tsx"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "redux",
+              "path": "src/redux",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "features",
+                  "path": "src/redux/features",
+                  "type": "directory",
+                  "children": [
+                    {
+                      "name": "cart-slice.ts",
+                      "path": "src/redux/features/cart-slice.ts",
+                      "type": "file",
+                      "extension": ".ts"
+                    },
+                    {
+                      "name": "product-details.ts",
+                      "path": "src/redux/features/product-details.ts",
+                      "type": "file",
+                      "extension": ".ts"
+                    },
+                    {
+                      "name": "quickView-slice.ts",
+                      "path": "src/redux/features/quickView-slice.ts",
+                      "type": "file",
+                      "extension": ".ts"
+                    },
+                    {
+                      "name": "wishlist-slice.ts",
+                      "path": "src/redux/features/wishlist-slice.ts",
+                      "type": "file",
+                      "extension": ".ts"
+                    }
+                  ]
+                },
+                {
+                  "name": "provider.tsx",
+                  "path": "src/redux/provider.tsx",
+                  "type": "file",
+                  "extension": ".tsx"
+                },
+                {
+                  "name": "store.ts",
+                  "path": "src/redux/store.ts",
+                  "type": "file",
+                  "extension": ".ts"
+                }
+              ]
+            },
+            {
+              "name": "types",
+              "path": "src/types",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "Menu.ts",
+                  "path": "src/types/Menu.ts",
+                  "type": "file",
+                  "extension": ".ts"
+                },
+                {
+                  "name": "blogItem.ts",
+                  "path": "src/types/blogItem.ts",
+                  "type": "file",
+                  "extension": ".ts"
+                },
+                {
+                  "name": "category.ts",
+                  "path": "src/types/category.ts",
+                  "type": "file",
+                  "extension": ".ts"
+                },
+                {
+                  "name": "product.ts",
+                  "path": "src/types/product.ts",
+                  "type": "file",
+                  "extension": ".ts"
+                },
+                {
+                  "name": "testimonial.ts",
+                  "path": "src/types/testimonial.ts",
+                  "type": "file",
+                  "extension": ".ts"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "tailwind.config.ts",
+          "path": "tailwind.config.ts",
+          "type": "file",
+          "extension": ".ts"
+        }
+      ]
+    }
+  }
+}

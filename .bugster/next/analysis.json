@@ -1,0 +1,424 @@
+{
+  "metadata": {
+    "timestamp": 1750173454.971057,
+    "version": 2,
+    "git": {
+      "branch": "main",
+      "commit": "cb8f015b7342813b7e30def9ab2d27765d924bb2"
+    }
+  },
+  "data": {
+    "framework": {
+      "id": "next",
+      "name": "Next.js",
+      "dir_path": "/Users/facundolopezscala/coding-repos/demo-ecommerce/nextjs-ecommerce-template/"
+    },
+    "router_type": "app",
+    "stats": {
+      "fileCount": 119,
+      "routeCount": 17,
+      "apiRouteCount": 0,
+      "layoutCount": 1
+    },
+    "layouts": [
+      {
+        "name": "function",
+        "relative_file_path": "src/app/(site)/layout.tsx",
+        "relative_dir_path": "src/app/(site)",
+        "content": "\"use client\";\nimport { useState, useEffect } from \"react\";\nimport \"../css/euclid-circular-a-font.css\";\nimport \"../css/style.css\";\nimport Header from \"../../components/Header\";\nimport Footer from \"../../components/Footer\";\n\nimport { ModalProvider } from \"../context/QuickViewModalContext\";\nimport { CartModalProvider } from \"../context/CartSidebarModalContext\";\nimport { ReduxProvider } from \"@/redux/provider\";\nimport QuickViewModal from \"@/components/Common/QuickViewModal\";\nimport CartSidebarModal from \"@/components/Common/CartSidebarModal\";\nimport { PreviewSliderProvider } from \"../context/PreviewSliderContext\";\nimport PreviewSliderModal from \"@/components/Common/PreviewSlider\";\n\nimport ScrollToTop from \"@/components/Common/ScrollToTop\";\nimport PreLoader from \"@/components/Common/PreLoader\";\n\nexport default function RootLayout({\n  children,\n}: {\n  children: React.ReactNode;\n}) {\n  const [loading, setLoading] = useState<boolean>(true);\n\n  useEffect(() => {\n    setTimeout(() => setLoading(false), 1000);\n  }, []);\n\n  return (\n    <html lang=\"en\" suppressHydrationWarning={true}>\n      <body>\n        {loading ? (\n          <PreLoader />\n        ) : (\n          <>\n            <ReduxProvider>\n              <CartModalProvider>\n                <ModalProvider>\n                  <PreviewSliderProvider>\n                    <Header />\n                    {children}\n\n                    <QuickViewModal />\n                    <CartSidebarModal />\n                    <PreviewSliderModal />\n                  </PreviewSliderProvider>\n                </ModalProvider>\n              </CartModalProvider>\n            </ReduxProvider>\n            <ScrollToTop />\n            <Footer />\n          </>\n        )}\n      </body>\n    </html>\n  );\n}\n",
+        "components": [
+          "ScrollToTop",
+          "CartSidebarModal",
+          "PreviewSliderModal",
+          "CartModalProvider",
+          "PreLoader",
+          "ModalProvider",
+          "Footer",
+          "PreviewSliderProvider",
+          "ReduxProvider",
+          "QuickViewModal",
+          "Header"
+        ]
+      }
+    ],
+    "routes": [
+      {
+        "routePath": "src/app/(site)/(pages)/cart",
+        "relativeFilePath": "src/app/(site)/(pages)/cart/page.tsx",
+        "layoutChain": [
+          "function"
+        ],
+        "components": [
+          "Cart"
+        ],
+        "hasParams": false,
+        "hasForm": false,
+        "hooks": [],
+        "eventHandlers": [],
+        "featureFlags": []
+      },
+      {
+        "routePath": "src/app/(site)/(pages)/checkout",
+        "relativeFilePath": "src/app/(site)/(pages)/checkout/page.tsx",
+        "layoutChain": [
+          "function"
+        ],
+        "components": [
+          "Checkout"
+        ],
+        "hasParams": false,
+        "hasForm": false,
+        "hooks": [],
+        "eventHandlers": [],
+        "featureFlags": []
+      },
+      {
+        "routePath": "src/app/(site)/(pages)/contact",
+        "relativeFilePath": "src/app/(site)/(pages)/contact/page.tsx",
+        "layoutChain": [
+          "function"
+        ],
+        "components": [
+          "Contact"
+        ],
+        "hasParams": false,
+        "hasForm": false,
+        "hooks": [],
+        "eventHandlers": [],
+        "featureFlags": []
+      },
+      {
+        "routePath": "src/app/(site)/(pages)/error",
+        "relativeFilePath": "src/app/(site)/(pages)/error/page.tsx",
+        "layoutChain": [
+          "function"
+        ],
+        "components": [
+          "Error"
+        ],
+        "hasParams": false,
+        "hasForm": false,
+        "hooks": [],
+        "eventHandlers": [],
+        "featureFlags": []
+      },
+      {
+        "routePath": "src/app/(site)/(pages)/mail-success",
+        "relativeFilePath": "src/app/(site)/(pages)/mail-success/page.tsx",
+        "layoutChain": [
+          "function"
+        ],
+        "components": [
+          "MailSuccess"
+        ],
+        "hasParams": false,
+        "hasForm": false,
+        "hooks": [],
+        "eventHandlers": [],
+        "featureFlags": []
+      },
+      {
+        "routePath": "src/app/(site)/(pages)/my-account",
+        "relativeFilePath": "src/app/(site)/(pages)/my-account/page.tsx",
+        "layoutChain": [
+          "function"
+        ],
+        "components": [
+          "MyAccount"
+        ],
+        "hasParams": false,
+        "hasForm": false,
+        "hooks": [],
+        "eventHandlers": [],
+        "featureFlags": []
+      },
+      {
+        "routePath": "src/app/(site)/(pages)/shop-details",
+        "relativeFilePath": "src/app/(site)/(pages)/shop-details/page.tsx",
+        "layoutChain": [
+          "function"
+        ],
+        "components": [
+          "ShopDetails"
+        ],
+        "hasParams": false,
+        "hasForm": false,
+        "hooks": [],
+        "eventHandlers": [],
+        "featureFlags": []
+      },
+      {
+        "routePath": "src/app/(site)/(pages)/shop-with-sidebar",
+        "relativeFilePath": "src/app/(site)/(pages)/shop-with-sidebar/page.tsx",
+        "layoutChain": [
+          "function"
+        ],
+        "components": [
+          "ShopWithSidebar"
+        ],
+        "hasParams": false,
+        "hasForm": false,
+        "hooks": [],
+        "eventHandlers": [],
+        "featureFlags": []
+      },
+      {
+        "routePath": "src/app/(site)/(pages)/shop-without-sidebar",
+        "relativeFilePath": "src/app/(site)/(pages)/shop-without-sidebar/page.tsx",
+        "layoutChain": [
+          "function"
+        ],
+        "components": [
+          "ShopWithoutSidebar"
+        ],
+        "hasParams": false,
+        "hasForm": false,
+        "hooks": [],
+        "eventHandlers": [],
+        "featureFlags": []
+      },
+      {
+        "routePath": "src/app/(site)/(pages)/signin",
+        "relativeFilePath": "src/app/(site)/(pages)/signin/page.tsx",
+        "layoutChain": [
+          "function"
+        ],
+        "components": [
+          "Signin"
+        ],
+        "hasParams": false,
+        "hasForm": false,
+        "hooks": [],
+        "eventHandlers": [],
+        "featureFlags": []
+      },
+      {
+        "routePath": "src/app/(site)/(pages)/signup",
+        "relativeFilePath": "src/app/(site)/(pages)/signup/page.tsx",
+        "layoutChain": [
+          "function"
+        ],
+        "components": [
+          "Signup"
+        ],
+        "hasParams": false,
+        "hasForm": false,
+        "hooks": [],
+        "eventHandlers": [],
+        "featureFlags": []
+      },
+      {
+        "routePath": "src/app/(site)/(pages)/wishlist",
+        "relativeFilePath": "src/app/(site)/(pages)/wishlist/page.tsx",
+        "layoutChain": [
+          "function"
+        ],
+        "components": [
+          "Wishlist"
+        ],
+        "hasParams": false,
+        "hasForm": false,
+        "hooks": [],
+        "eventHandlers": [],
+        "featureFlags": []
+      },
+      {
+        "routePath": "src/app/(site)/blogs/blog-details-with-sidebar",
+        "relativeFilePath": "src/app/(site)/blogs/blog-details-with-sidebar/page.tsx",
+        "layoutChain": [
+          "function"
+        ],
+        "components": [
+          "BlogDetailsWithSidebar"
+        ],
+        "hasParams": false,
+        "hasForm": false,
+        "hooks": [],
+        "eventHandlers": [],
+        "featureFlags": []
+      },
+      {
+        "routePath": "src/app/(site)/blogs/blog-details",
+        "relativeFilePath": "src/app/(site)/blogs/blog-details/page.tsx",
+        "layoutChain": [
+          "function"
+        ],
+        "components": [
+          "BlogDetails"
+        ],
+        "hasParams": false,
+        "hasForm": false,
+        "hooks": [],
+        "eventHandlers": [],
+        "featureFlags": []
+      },
+      {
+        "routePath": "src/app/(site)/blogs/blog-grid-with-sidebar",
+        "relativeFilePath": "src/app/(site)/blogs/blog-grid-with-sidebar/page.tsx",
+        "layoutChain": [
+          "function"
+        ],
+        "components": [
+          "BlogGridWithSidebar"
+        ],
+        "hasParams": false,
+        "hasForm": false,
+        "hooks": [],
+        "eventHandlers": [],
+        "featureFlags": []
+      },
+      {
+        "routePath": "src/app/(site)/blogs/blog-grid",
+        "relativeFilePath": "src/app/(site)/blogs/blog-grid/page.tsx",
+        "layoutChain": [
+          "function"
+        ],
+        "components": [
+          "BlogGrid"
+        ],
+        "hasParams": false,
+        "hasForm": false,
+        "hooks": [],
+        "eventHandlers": [],
+        "featureFlags": []
+      },
+      {
+        "routePath": "src/app/(site)",
+        "relativeFilePath": "src/app/(site)/page.tsx",
+        "layoutChain": [
+          "function"
+        ],
+        "components": [
+          "Home"
+        ],
+        "hasParams": false,
+        "hasForm": false,
+        "hooks": [],
+        "eventHandlers": [],
+        "featureFlags": []
+      }
+    ],
+    "api_routes": [],
+    "all_paths": [
+      "next.config.js",
+      "postcss.config.js",
+      "src/app/(site)/(pages)/cart/page.tsx",
+      "src/app/(site)/(pages)/checkout/page.tsx",
+      "src/app/(site)/(pages)/contact/page.tsx",
+      "src/app/(site)/(pages)/error/page.tsx",
+      "src/app/(site)/(pages)/mail-success/page.tsx",
+      "src/app/(site)/(pages)/my-account/page.tsx",
+      "src/app/(site)/(pages)/shop-details/page.tsx",
+      "src/app/(site)/(pages)/shop-with-sidebar/page.tsx",
+      "src/app/(site)/(pages)/shop-without-sidebar/page.tsx",
+      "src/app/(site)/(pages)/signin/page.tsx",
+      "src/app/(site)/(pages)/signup/page.tsx",
+      "src/app/(site)/(pages)/wishlist/page.tsx",
+      "src/app/(site)/blogs/blog-details-with-sidebar/page.tsx",
+      "src/app/(site)/blogs/blog-details/page.tsx",
+      "src/app/(site)/blogs/blog-grid-with-sidebar/page.tsx",
+      "src/app/(site)/blogs/blog-grid/page.tsx",
+      "src/app/(site)/layout.tsx",
+      "src/app/(site)/page.tsx",
+      "src/app/context/CartSidebarModalContext.tsx",
+      "src/app/context/PreviewSliderContext.tsx",
+      "src/app/context/QuickViewModalContext.tsx",
+      "src/components/Auth/Signin/index.tsx",
+      "src/components/Auth/Signup/index.tsx",
+      "src/components/Blog/BlogItem.tsx",
+      "src/components/Blog/Categories.tsx",
+      "src/components/Blog/LatestPosts.tsx",
+      "src/components/Blog/LatestProducts.tsx",
+      "src/components/Blog/SearchForm.tsx",
+      "src/components/BlogDetails/index.tsx",
+      "src/components/BlogDetailsWithSidebar/index.tsx",
+      "src/components/BlogGrid/blogData.ts",
+      "src/components/BlogGrid/index.tsx",
+      "src/components/BlogGridWithSidebar/index.tsx",
+      "src/components/Cart/Discount.tsx",
+      "src/components/Cart/OrderSummary.tsx",
+      "src/components/Cart/SingleItem.tsx",
+      "src/components/Cart/index.tsx",
+      "src/components/Checkout/Billing.tsx",
+      "src/components/Checkout/Coupon.tsx",
+      "src/components/Checkout/Login.tsx",
+      "src/components/Checkout/Notes.tsx",
+      "src/components/Checkout/OrderList.tsx",
+      "src/components/Checkout/PaymentMethod.tsx",
+      "src/components/Checkout/Shipping.tsx",
+      "src/components/Checkout/ShippingMethod.tsx",
+      "src/components/Checkout/index.tsx",
+      "src/components/Common/Breadcrumb.tsx",
+      "src/components/Common/CartSidebarModal/EmptyCart.tsx",
+      "src/components/Common/CartSidebarModal/SingleItem.tsx",
+      "src/components/Common/CartSidebarModal/index.tsx",
+      "src/components/Common/Newsletter.tsx",
+      "src/components/Common/PreLoader.tsx",
+      "src/components/Common/PreviewSlider.tsx",
+      "src/components/Common/ProductItem.tsx",
+      "src/components/Common/QuickViewModal.tsx",
+      "src/components/Common/ScrollToTop.tsx",
+      "src/components/Contact/index.tsx",
+      "src/components/Error/index.tsx",
+      "src/components/Footer/index.tsx",
+      "src/components/Header/CustomSelect.tsx",
+      "src/components/Header/Dropdown.tsx",
+      "src/components/Header/index.tsx",
+      "src/components/Header/menuData.ts",
+      "src/components/Home/BestSeller/SingleItem.tsx",
+      "src/components/Home/BestSeller/index.tsx",
+      "src/components/Home/Categories/SingleItem.tsx",
+      "src/components/Home/Categories/categoryData.ts",
+      "src/components/Home/Categories/index.tsx",
+      "src/components/Home/Countdown/index.tsx",
+      "src/components/Home/Hero/HeroCarousel.tsx",
+      "src/components/Home/Hero/HeroFeature.tsx",
+      "src/components/Home/Hero/index.tsx",
+      "src/components/Home/NewArrivals/index.tsx",
+      "src/components/Home/PromoBanner/index.tsx",
+      "src/components/Home/Testimonials/SingleItem.tsx",
+      "src/components/Home/Testimonials/index.tsx",
+      "src/components/Home/Testimonials/testimonialsData.ts",
+      "src/components/Home/index.tsx",
+      "src/components/MailSuccess/index.tsx",
+      "src/components/MyAccount/AddressModal.tsx",
+      "src/components/MyAccount/index.tsx",
+      "src/components/MyAccount/tabsData.tsx",
+      "src/components/Orders/EditOrder.tsx",
+      "src/components/Orders/OrderActions.tsx",
+      "src/components/Orders/OrderDetails.tsx",
+      "src/components/Orders/OrderModal.tsx",
+      "src/components/Orders/SingleOrder.tsx",
+      "src/components/Orders/index.tsx",
+      "src/components/Orders/ordersData.tsx",
+      "src/components/Shop/SingleGridItem.tsx",
+      "src/components/Shop/SingleListItem.tsx",
+      "src/components/Shop/shopData.ts",
+      "src/components/ShopDetails/RecentlyViewd/index.tsx",
+      "src/components/ShopDetails/index.tsx",
+      "src/components/ShopWithSidebar/CategoryDropdown.tsx",
+      "src/components/ShopWithSidebar/ColorsDropdwon.tsx",
+      "src/components/ShopWithSidebar/CustomSelect.tsx",
+      "src/components/ShopWithSidebar/GenderDropdown.tsx",
+      "src/components/ShopWithSidebar/PriceDropdown.tsx",
+      "src/components/ShopWithSidebar/Progress.tsx",
+      "src/components/ShopWithSidebar/SizeDropdown.tsx",
+      "src/components/ShopWithSidebar/index.tsx",
+      "src/components/ShopWithoutSidebar/index.tsx",
+      "src/components/Wishlist/SingleItem.tsx",
+      "src/components/Wishlist/index.tsx",
+      "src/redux/features/cart-slice.ts",
+      "src/redux/features/product-details.ts",
+      "src/redux/features/quickView-slice.ts",
+      "src/redux/features/wishlist-slice.ts",
+      "src/redux/provider.tsx",
+      "src/redux/store.ts",
+      "src/types/Menu.ts",
+      "src/types/blogItem.ts",
+      "src/types/category.ts",
+      "src/types/product.ts",
+      "src/types/testimonial.ts",
+      "tailwind.config.ts"
+    ]
+  }
+}
