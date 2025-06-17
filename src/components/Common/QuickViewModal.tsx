@@ -102,13 +102,15 @@ const QuickViewModal = () => {
                         activePreview === key && "border-2 border-blue"
                       }`}
                     >
-                      <Image
-                        src={img || ""}
-                        alt="thumbnail"
-                        width={61}
-                        height={61}
-                        className="aspect-square"
-                      />
+                      {img && (
+                        <Image
+                          src={img}
+                          alt="thumbnail"
+                          width={61}
+                          height={61}
+                          className="aspect-square"
+                        />
+                      )}
                     </button>
                   ))}
                 </div>
@@ -137,12 +139,14 @@ const QuickViewModal = () => {
                       </svg>
                     </button>
 
-                    <Image
-                      src={product?.imgs?.previews?.[activePreview]}
-                      alt="products-details"
-                      width={400}
-                      height={400}
-                    />
+                    {product?.imgs?.previews?.[activePreview] && (
+                      <Image
+                        src={product.imgs.previews[activePreview]}
+                        alt="products-details"
+                        width={400}
+                        height={400}
+                      />
+                    )}
                   </div>
                 </div>
               </div>
